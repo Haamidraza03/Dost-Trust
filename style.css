@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Lora", serif !important;
+    font-optical-sizing: auto !important;
+    overflow-x: hidden !important;
+    background-color: aliceblue !important;
+}
+
+#loading{
+    background: rgb(249, 249, 249) url(./Images/load.gif) no-repeat center;
+    height:100vh;
+    width:100%;
+    background-size: 40%;
+    position: fixed;
+    z-index:10;
+}
+
+#para{
+    text-align: justify !important;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    z-index: 1 !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 175, 146);
+    border-radius: 10px;
+}
+
 #bk{
     width: 100vw;
-    height: 100vh;
+    height: 92vh;
+}
+
+#hero{
+    font-size: 60px !important;
+    margin-top: -210px !important;
+    color: white;
+}
+
+#herop{
+    font-size: 30px !important;
+    color: white;
+}
+
+.accordion{
+    width:90% !important;
+    --bs-accordion-active-bg:white !important;
+    --bs-accordion-active-color:none !important;
+    --bs-accordion-bg:white !important;
+    --bs-accordion-btn-focus-box-shadow:none !important;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+}
+
+@media (max-width:425px){
+    #bk{
+        height: 34vh;
+    }
+
+    #hero{
+        margin-top: 600px !important;
+        font-size: 25px !important;
+    }
+
+    .med{
+        color: white !important;
+    }
+
+    #herop{
+        margin-bottom: -20px !important;
+        font-size: 10px !important;
+    }
+
+    .mapbox{
+        height: 550px !important;
+      }
 }
