@@ -85,4 +85,8 @@ body{
     .mapbox{
         height: 550px !important;
       }
+
+    #upi{
+        font-size: 20.5px !important;
+    }
 }
