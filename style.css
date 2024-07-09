@@ -59,9 +59,9 @@ body{
     --bs-accordion-btn-focus-box-shadow:none !important;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
     font-weight: bolder;
-}
+} */
 
 @media (max-width:425px){
     #bk{
